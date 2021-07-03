@@ -1,8 +1,11 @@
 {
   "name": "ahj-http-serv",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Mogushkov/ahj-http-serv.git",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mogushkov/ahj-http-serv.git"
+  },
   "author": "Gapur Mogushkov <gapur@mail.ru>",
   "license": "MIT",
   "scripts": {
