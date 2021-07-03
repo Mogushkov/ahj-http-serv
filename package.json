@@ -1,0 +1,23 @@
+{
+  "name": "ahj-http-serv",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mogushkov/ahj-http-serv.git",
+  "author": "Gapur Mogushkov <gapur@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "forever server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "14.x"
+    },    
+  "dependencies": {
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  }
+}
