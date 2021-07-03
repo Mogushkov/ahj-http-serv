@@ -15,12 +15,15 @@
   },
   "engines": {
     "node": "14.x"
-    },    
+  },
   "dependencies": {
     "forever": "^4.0.1",
     "koa": "^2.13.1",
     "koa-body": "^4.2.0",
     "koa-static": "^5.0.0",
     "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "http": "^0.0.1-security"
   }
 }
